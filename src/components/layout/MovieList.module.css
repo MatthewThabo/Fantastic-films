@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
+
 *{
     box-sizing: border-box;
 } 
@@ -19,6 +20,13 @@
     flex-wrap: wrap;
     justify-content: center; 
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* .btn {
+    padding-top: 60px;
+} */
 
 .movie {
     width: 300px;
@@ -51,5 +59,10 @@
 .movie:hover {
     transform:translateY(0)
 }
-
-
+.form-center {
+  width:400px;
+  margin: 0 auto;
+}
+.top{
+    padding-bottom: 40px;
+}
